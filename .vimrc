@@ -4,6 +4,8 @@ filetype plugin on
 
 syntax on
 
+colorscheme desert
+
 set expandtab
 
 " Line numbers.
