@@ -27,7 +27,10 @@ require('mason').setup({})
 require('mason-lspconfig').setup({
 	ensure_installed = {
 		-- Add new LSPs here.
+		'clangd',
+		'jdtls',
 		'lua_ls',
+		'pyright',
 	}
 })
 
