@@ -3,7 +3,9 @@ require 'nvim-treesitter.configs'.setup {
     ensure_installed = {
         'c',
         'go',
+        'groovy',
         'java',
+        'kotlin',
         'lua',
         'markdown',
         'markdown_inline',

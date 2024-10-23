@@ -8,6 +8,12 @@ require('telescope').setup {
         path_display = { 'smart' },
         sorting_strategy = 'ascending',
     },
+    pickers = {
+        buffers = {
+            sort_lastused = true,
+            ignore_current_buffer = true,
+        },
+    },
     extensions = {
         file_browser = {
             -- disables netrw and use telescope-file-browser in its place
@@ -28,4 +34,3 @@ vim.keymap.set('n', '<leader>fs', builtin.lsp_document_symbols, {})
 require('telescope').load_extension 'file_browser'
 vim.keymap.set('n', '<leader>fd', ':Telescope file_browser<cr>')
 vim.keymap.set('n', '<leader>fc', ':Telescope file_browser path=%:p:h select_buffer=true<cr>')
-

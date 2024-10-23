@@ -8,5 +8,6 @@ return {
             'nvim-treesitter/nvim-treesitter',
         },
     },
+    { 'nvim-neotest/neotest-python' },
     { 'rcasia/neotest-java' },
 }
