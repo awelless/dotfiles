@@ -18,5 +18,7 @@ set ignorecase
 set incsearch
 set smartcase
 
+nnoremap <esc> :nohlsearch<cr>
+
 " History.
 set history=1000
