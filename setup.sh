@@ -7,6 +7,7 @@ dotfiles_dir=$(dirname $0)
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 # Creating symlinks to the dotfiles.
+ln -fs $PWD/$dotfiles_dir/gitconfig ~/.gitconfig
 ln -fsn $PWD/$dotfiles_dir/nvim ~/.config/nvim
 ln -fs $PWD/$dotfiles_dir/p10k.zsh ~/.p10k.zsh
 ln -fs $PWD/$dotfiles_dir/tmux.conf ~/.tmux.conf
