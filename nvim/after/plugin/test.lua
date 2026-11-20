@@ -2,14 +2,9 @@ local neotest = require('neotest')
 
 neotest.setup{
     adapters = {
-        require('neotest-java') {
-            ignore_wrapper = false,
-        },
         require('neotest-python'),
     },
 }
-
-vim.cmd('NeotestJava setup')
 
 local function set_keymap_n(mapping, action, opts)
     vim.keymap.set('n', mapping, action, opts)

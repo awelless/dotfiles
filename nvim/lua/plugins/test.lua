@@ -9,5 +9,4 @@ return {
         },
     },
     { 'nvim-neotest/neotest-python' },
-    { 'rcasia/neotest-java' },
 }
